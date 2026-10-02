@@ -1,0 +1,35 @@
+# C++ compiled executables
+src/edgeguard
+src/process_monitor
+src/resource_monitor
+src/resource_monitor
+src/fault_injector
+src/device_monitor
+src/ipc_demo
+src/udp_receiver
+src/udp_sender
+src/test_service
+
+# Kernel driver build files
+driver/*.o
+driver/*.ko
+driver/*.mod
+driver/*.mod.c
+driver/*.mod.o
+driver/*.order
+driver/.*.cmd
+driver/.*.d
+driver/Module.symvers
+driver/modules.order
+driver/.tmp_versions/
+
+# Logs
+logs/*.log
+
+# Editor files
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+driver/build_error.txt
